@@ -1,0 +1,16 @@
+/***need to center component ***/
+/***need to remove border and margin ***/
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main {
+  max-width: 768px;
+  min-width: 370px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 0.5%;
+  border: 1px solid #555;
+  height: 98vh;
+}

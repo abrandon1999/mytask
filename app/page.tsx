@@ -1,8 +1,11 @@
-
+import ProfileBar from "./components/ProfileBar";
+import styles from "./page.module.css";
 export default function Home() {
   return (
-    <div> 
-      <h1>Hello World</h1>
+    <div className={styles.container}>
+      <div className={styles.main}>
+        <ProfileBar />
+      </div>
     </div>
   );
 }
