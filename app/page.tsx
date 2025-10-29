@@ -1,3 +1,4 @@
+import DefaultLists from "./components/DefaultLists";
 import ProfileBar from "./components/ProfileBar";
 import styles from "./page.module.css";
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
     <div className={styles.container}>
       <div className={styles.main}>
         <ProfileBar />
+        <DefaultLists />
       </div>
     </div>
   );
