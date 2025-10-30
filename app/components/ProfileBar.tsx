@@ -10,7 +10,7 @@ export default function ProfileBar() {
       style={{
         display: "flex",
         justifyContent: "space-between",
-        marginBottom: "30px",
+        marginBottom: "20px",
       }}
     >
       <div
