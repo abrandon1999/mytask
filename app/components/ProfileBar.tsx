@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 import profilePic from "../../public/user_photo_account_icon.svg";
 import searchIcon from "../../public/search_sharp_icon.svg";
 const ICON_DIMENSION = 30;
