@@ -4,12 +4,8 @@ import plan from "../../public/calendar_schedule_icon.svg";
 import user from "../../public/user_icon.svg";
 import flag from "../../public/flag_location_icon.svg";
 import home from "../../public/home_checkmark_regular_icon.svg";
-
-import Image from "next/image";
 import TaskList from "./TaskList";
-const ICON_DIMENSION = 30;
-const MARGINBOTTOM = "20px";
-const FONTSIZE = "1.2rem";
+
 const defaultList = [
   {
     id: 1,

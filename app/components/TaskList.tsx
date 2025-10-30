@@ -1,3 +1,4 @@
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Image from "next/image";
 
 const ICON_DIMENSION = 30;
@@ -5,7 +6,7 @@ const MARGIN_Y = "20px";
 const FONTSIZE = "1.2rem";
 interface Props {
   title: string;
-  icon: any;
+  icon: string | StaticImport;
   count: number;
 }
 function TaskList({ title, icon, count }: Props) {
